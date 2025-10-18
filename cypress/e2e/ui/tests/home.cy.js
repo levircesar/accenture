@@ -7,5 +7,6 @@ describe("Test Playground", () => {
     homePage.visit();
     homePage.clickStart();
     cy.contains("Como Começar").should("be.visible");
+    cy.screenshot();
   });
 });
