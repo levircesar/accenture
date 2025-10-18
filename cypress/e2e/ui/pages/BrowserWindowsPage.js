@@ -27,3 +27,4 @@ export class BrowserWindowsPage {
     this.elements.closeModalButton().click({ force: true });
   }
 }
+////div[@id="demo-tabpane-list"]//div[text()='Two']
