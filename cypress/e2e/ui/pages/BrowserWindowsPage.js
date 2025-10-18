@@ -1,6 +1,6 @@
 export class BrowserWindowsPage {
   elements = {
-    formsMenu: () => cy.contains("h5", "Alerts, Frame & Windows"),
+    alertsMenu: () => cy.contains("h5", "Alerts, Frame & Windows"),
     browserWindowsMenuItem: () => cy.contains("span.text", "Browser Windows"),
     windowButton: () => cy.get("#windowButton"), 
     modalTitle: () => cy.get(".modal-title"),
@@ -13,7 +13,7 @@ export class BrowserWindowsPage {
   }
 
   navigateToBrowserWindows() {
-    this.elements.formsMenu().click();
+    this.elements.alertsMenu().click();
     this.elements.browserWindowsMenuItem().click();
   }
  
@@ -21,7 +21,7 @@ export class BrowserWindowsPage {
     this.elements.windowButton().click();
   }
 
-  
+
 
   closeModal() {
     this.elements.closeModalButton().click({ force: true });
