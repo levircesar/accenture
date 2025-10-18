@@ -7,7 +7,8 @@
     "test": "cypress run",
     "test:ui": "cypress run --spec 'cypress/e2e/ui/**/*.cy.js'",
     "test:api": "cypress run --spec 'cypress/e2e/api/**/*.cy.js'",
-    "allure": "allure serve allure-results"
+    "allure": "allure serve allure-results",
+    "clean": "rm -rf allure-results cypress/videos cypress/screenshots"
   },
   "keywords": [],
   "author": "",
