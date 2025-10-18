@@ -1,0 +1,20 @@
+{
+  "name": "accenture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy": "cypress open",
+    "test": "cypress run",
+    "test:ui": "cypress run --spec 'cypress/e2e/ui/**/*.cy.js'",
+    "test:api": "cypress run --spec 'cypress/e2e/api/**/*.cy.js'",
+    "allure": "allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "allure-cypress": "^3.4.1",
+    "cypress": "^15.5.0"
+  }
+}
