@@ -1,6 +1,6 @@
 import { SortablePage } from "../pages/SortablePage";
 
-describe("Sortable - Padrão Page Object", () => {
+describe("Sortable Test", () => {
   const sortablePage = new SortablePage();
 
   beforeEach(() => {

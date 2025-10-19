@@ -1,6 +1,6 @@
 import { BrowserWindowsPage } from "../pages/BrowserWindowsPage";
 
-describe("Browser Windows - Padrão Page Object", () => {
+describe("Browser Windows Test", () => {
   const browserWindows = new BrowserWindowsPage();
 
   beforeEach(() => {

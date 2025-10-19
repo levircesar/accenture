@@ -1,6 +1,6 @@
 import { PracticeFormPage } from "../pages/PracticeFormPage";
 
-describe("Formulário de Prática - Padrão Page Object", () => {
+describe("Form Practice Test", () => {
   const formPage = new PracticeFormPage();
  
   beforeEach(() => {

@@ -1,6 +1,6 @@
 import { ProgressBarPage } from "../pages/ProgressBarPage";
 
-describe("Browser Windows - Padrão Page Object", () => {
+describe("Progress Bar Test", () => {
   const progressBar = new ProgressBarPage();
 
   beforeEach(() => {

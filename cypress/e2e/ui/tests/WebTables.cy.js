@@ -1,6 +1,6 @@
 import { WebTablesPage } from "../pages/WebTablesPage";
 
-describe("Browser Windows - Padrão Page Object", () => {
+describe("Web Tables Test", () => {
   const webTables = new WebTablesPage();
 
   beforeEach(() => {
