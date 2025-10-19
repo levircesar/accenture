@@ -58,7 +58,7 @@ export class WebTablesPage {
   }
 
   clickDeleteButton() {
-    this.elements.deleteButton().click();
+    this.elements.deleteButton().first().click();
   }
   clickEditButton() {
     this.elements.editButton().click();

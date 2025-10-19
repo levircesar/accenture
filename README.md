@@ -12,12 +12,19 @@ This project uses Allure to generate test reports.
 
 To generate and view the Allure report, follow these steps:
 
-1.  Run the Cypress tests:
+1.  Run Cypress tests:
     ```bash
     npm run test
     ```
 
-2.  Serve the Allure report:
+
+![Tests](image.png)
+
+
+2.  Command to open Allure report:
     ```bash
     npm run allure
     ```
+
+
+![Allure](allure.png)
