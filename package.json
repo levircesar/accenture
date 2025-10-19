@@ -11,7 +11,7 @@
     "clean": "rm -rf allure-results cypress/videos cypress/screenshots"
   },
   "keywords": [],
-  "author": "",
+  "author": "LevirLemos",
   "license": "ISC",
   "description": "",
   "devDependencies": {
