@@ -3,9 +3,10 @@ import { defineConfig } from "cypress";
 
 
 module.exports = defineConfig({
-  video: true,
+  video: false,
   videoCompression: true,
   e2e: {
+    baseUrl: "https://demoqa.com/",
     setupNodeEvents(on, config) {
       allureCypress(on, config, {
         resultsDir: "allure-results",
